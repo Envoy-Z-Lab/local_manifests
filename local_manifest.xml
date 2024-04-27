@@ -12,5 +12,5 @@
 
   <project path="vendor/xiaomi/lavender" name="AaradhayVijay/android_vendor_xiaomi_lavender" remote="gh" revision="fourteen" />
 
-  <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" remote="gh" revision="lineage-21" />
+  <project path="kernel/xiaomi/sdm660" name="kyasu/android_kernel_xiaomi_sdm660" remote="gh" revision="lineage-21" />
 </manifest>
