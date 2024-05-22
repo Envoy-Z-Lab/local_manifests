@@ -12,5 +12,5 @@
 
   <project path="vendor/xiaomi/lavender" name="Evolution-X-Devices/vendor_xiaomi_lavender" remote="gh" revision="udc" />
 
-  <project path="kernel/xiaomi/sdm660" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="gh" revision="udc" />
+  <project path="kernel/xiaomi/lavender" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="gh" revision="udc" />
 </manifest>
