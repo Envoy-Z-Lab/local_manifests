@@ -11,7 +11,7 @@
   <project path="kernel/xiaomi/lavender" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="gh" revision="udc" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom-caf/msm8998/media" name="Evolution-X/hardware_qcom-caf_sdm660_media" remote="gh" revision="udc" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="Evolution-X/hardware_qcom-caf_sdm660_audio" remote="gh" revision="udc" />
-  <project path="hardware/qcom-caf/msm8998/display" name="Evolution-X/hardware_qcom-caf_sdm660_display" remote="gh" revision="udc" />
+  <project path="hardware/qcom-caf/msm8998/media" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_media" remote="gh" revision="udc" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_audio" remote="gh" revision="udc" />
+  <project path="hardware/qcom-caf/msm8998/display" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_display" remote="gh" revision="udc" />
 </manifest>
