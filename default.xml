@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gh"
-          fetch="https://github.com"
-          clone-depth="1" />
+    
+ <!--Fetch Github-->
+    <remote name="github" fetch="https://github.com/" />
+    
+    <!-- Remove HAL's -->
+    <remove-project name="LeafOS-Project/android_hardware_qcom_display" />
+    <remove-project name="LeafOS-Project/android_hardware_qcom_media" />
+    <remove-project name="LeafOS-Project/android_hardware_qcom_audio" />
 
-  <project path="device/xiaomi/sdm660-common" name="RedmiNote7-Series/device_sdm660-common" remote="gh" revision="udc" />
-  <project path="device/xiaomi/lavender" name="RedmiNote7-Series/device_lavender" remote="gh" revision="leaf" />
-  <project path="vendor/xiaomi/sdm660-common" name="Evolution-X-Devices/vendor_xiaomi_sdm660-common" remote="gh" revision="udc" />
-  <project path="vendor/xiaomi/lavender" name="Evolution-X-Devices/vendor_xiaomi_lavender" remote="gh" revision="udc" />
-  <project path="kernel/xiaomi/lavender" name="Evolution-X-Devices/kernel_xiaomi_sdm660" remote="gh" revision="udc" />
-
-  <!-- Hardware -->
-  <project path="hardware/qcom-caf/msm8998/media" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_media" remote="gh" revision="udc" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_audio" remote="gh" revision="udc" />
-  <project path="hardware/qcom-caf/msm8998/display" name="RedmiNote7-Series/hardware_qcom-caf_sdm660_display" remote="gh" revision="udc" />
+    <!--HAL's & Tree's-->
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/msm8998/display" revision="14.0" remote="github" />
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/msm8998/media" revision="14.0" remote="github" />
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/msm8998/audio" revision="14.0" remote="github" />
+    <project name="RedmiNote7-Series/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="leaf" remote="github" />
+    <project name="RedmiNote7-Series/kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" revision="leaf" remote="github" />
+    <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="leaf" remote="github" />
+    <project name="RedmiNote7-Series/android_hardware_xiaomi" path="hardware/xiaomi" revision="14.0" remote="github" />
 </manifest>
