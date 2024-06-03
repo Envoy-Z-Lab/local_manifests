@@ -6,8 +6,8 @@
 
     <!-- HAL's & Trees -->
     <project name="RedmiNote7-Series/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="genesis" remote="github" />
-    <project name="RedmiNote7-Series/kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" revision="14.0" remote="github" />
-    <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="14.0" remote="github" />
-    <project name="RedmiNote7-Series/hardware_xiaomi" path="hardware/xiaomi" revision="14.0" remote="github" />
+    <project name="RedmiNote7-Series/kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" revision="14" remote="github" />
+    <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="14" remote="github" />
+    <project name="RedmiNote7-Series/hardware_xiaomi" path="hardware/xiaomi" revision="14" remote="github" />
 
 </manifest>
