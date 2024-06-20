@@ -40,7 +40,7 @@
     
     <project
         path="hardware/oneplus"
-        name="LineageOS/hardware_oneplus"
+        name="LineageOS/android_hardware_oneplus"
         remote="github"
         revision="lineage-21" />
 </manifest>
