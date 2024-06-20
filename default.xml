@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- Fetch Github -->
-    <remote name="github" fetch="https://github.com/" />
-
-    <!-- HAL's & Trees -->
-    <project name="RedmiNote7-Series/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="leaf" remote="github" />
-    <project name="RedmiNote7-Series/kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" revision="14.0" remote="github" />
-    <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="14.0" remote="github" />
-    <project name="RedmiNote7-Series/hardware_xiaomi" path="hardware/xiaomi" revision="14.0" remote="github" />
-
+    <remote name="github"
+        fetch="https://github.com/" />
+    
+    <project
+        path="device/oneplus/enchilada"
+        name="ppanzenboeck/device_oneplus_enchilada"
+        remote="github"
+        revision="derp14" />
+    
+    <project
+        path="device/oneplus/sdm845-common"
+        name="ppanzenboeck/device_oneplus_sdm845-common"
+        remote="github"
+        revision="derp14" />
+    
+    <project
+        path="hardware/oneplus"
+        name="ppanzenboeck/hardware_oneplus"
+        remote="github"
+        revision="derp14-qpr2-compile" />
+    
+    <project
+        path="kernel/oneplus/sdm845"
+        name="ppanzenboeck/kernel_oneplus_sdm845"
+        remote="github"
+        revision="lineage-21" />
+    
+    <project
+        path="vendor/oneplus/sdm845-common"
+        name="ppanzenboeck/vendor_oneplus_sdm845-common"
+        remote="github"
+        revision="lineage-21" />
+    
+    <project
+        path="vendor/oneplus/enchilada"
+        name="ppanzenboeck/vendor_oneplus_enchilada"
+        remote="github"
+        revision="lineage-21" />
+    
+    <project
+        path="vendor/ViPER4AndroidFXRepackaged"
+        name="ppanzenboeck/vendor_ViPER4AndroidRepackaged"
+        remote="github"
+        revision="v4a" />
+    
+    <project
+        path="vendor/derp/signing/keys"
+        name="Envoy-Z-Lab/singing_keys"
+        remote="github"
+        revision="main" />
 </manifest>
