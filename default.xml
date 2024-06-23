@@ -11,7 +11,7 @@
     
     <project
         path="device/oneplus/sdm845-common"
-        name="ppanzenboeck/device_oneplus_sdm845-common"
+        name="Envoy-Z-Lab/device_oneplus_sdm845-common"
         remote="github"
         revision="derp14" />
     
