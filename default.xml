@@ -5,9 +5,9 @@
     <remote name="github" fetch="https://github.com/" />
     
     <!-- Remove HAL's -->
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <remove-project name="DroidX-UI/hardware_qcom_display" />
+    <remove-project name="DroidX-UI/hardware_qcom_media" />
+    <remove-project name="DroidX-UI/hardware_qcom_audio" />
  
     <project name="RedmiNote7-Series/device_xiaomi_lavender" path="device/xiaomi/lavender" remote="github" revision="droidx" />
     <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="github" revision="14" />
