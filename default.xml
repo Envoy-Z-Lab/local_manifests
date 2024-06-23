@@ -11,7 +11,7 @@
     
     <project
         path="device/oneplus/sdm845-common"
-        name="Envoy-Z-Lab/device_oneplus_sdm845-common"
+        name="ppanzenboeck/device_oneplus_sdm845-common"
         remote="github"
         revision="derp14" />
     
@@ -19,13 +19,13 @@
         path="hardware/oneplus"
         name="ppanzenboeck/hardware_oneplus"
         remote="github"
-        revision="derp14-qpr2-compile" />
+        revision="derp14" />
     
     <project
         path="kernel/oneplus/sdm845"
         name="ppanzenboeck/kernel_oneplus_sdm845"
         remote="github"
-        revision="lineage-21" />
+        revision="derp14" />
     
     <project
         path="vendor/oneplus/sdm845-common"
