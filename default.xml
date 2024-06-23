@@ -1,46 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <!-- Fetch Github -->
     <remote name="github" fetch="https://github.com/" />
     
-    <project
-        path="device/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/device_oneplus_sdm845-common"
-        remote="github"
-        revision="fourteen" />
-    
-    <project
-        path="device/oneplus/enchilada"
-        name="Envoy-Z-Lab/enchilada"
-        remote="github"
-        revision="lineage-21" />
-    
-    <project
-        path="vendor/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/vendor_oneplus_sdm845-common"
-        remote="github"
-        revision="fourteen" />
-    
-    <project
-        path="vendor/oneplus/enchilada"
-        name="ppanzenboeck/vendor_oneplus_enchilada"
-        remote="github"
-        revision="lineage-21" />
-    
-    <project
-        path="kernel/oneplus/sdm845"
-        name="PixelOS-OnePlus6-Series/kernel_oneplus_sdm845"
-        remote="github"
-        revision="fourteen" />
-    
-    <project
-        path="vendor/aosp/signing/keys"
-        name="Envoy-Z-Lab/singing_keys"
-        remote="github"
-        revision="aosp" />
-    
-    <project
-        path="hardware/oneplus"
-        name="LineageOS/android_hardware_oneplus"
-        remote="github"
-        revision="lineage-21" />
+    <!-- Remove HAL's -->
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+ 
+    <project name="RedmiNote7-Series/device_xiaomi_lavender" path="device/xiaomi/lavender" remote="github" revision="droidx" />
+    <project name="RedmiNote7-Series/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" remote="github" revision="14" />
+    <project name="Envoy-Z-Lab/kernel_xiaomi_lavender" path="kernel/xiaomi/lavender" remote="github" revision="14-Retro" />
+    <project name="Envoy-Z-Lab/singing_keys" path="vendor/droidx-priv/keys" remote="github" revision="droidx" />
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/msm8998/display" remote="github" revision="14" />
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/msm8998/audio" remote="github" revision="14" />
+    <project name="RedmiNote7-Series/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/msm8998/media" remote="github" revision="14" />
+    <project name="RedmiNote7-Series/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="14" />
 </manifest>
