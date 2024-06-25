@@ -44,10 +44,4 @@
         name="ppanzenboeck/vendor_ViPER4AndroidRepackaged"
         remote="github"
         revision="v4a" />
-    
-    <project
-        path="vendor/derp/signing/keys"
-        name="Envoy-Z-Lab/singing_keys"
-        remote="github"
-        revision="main" />
 </manifest>
