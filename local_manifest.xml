@@ -4,33 +4,33 @@
     
     <project
         path="device/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/device_oneplus_sdm845-common"
+        name="srgrusso/android_device_oneplus_sdm845-common"
         remote="github"
-        revision="fourteen" />
+        revision="bliss-u" />
     
     <project
         path="device/oneplus/enchilada"
-        name="Envoy-Z-Lab/enchilada"
+        name="srgrusso/android_device_oneplus_enchilada"
+        remote="github"
+        revision="bliss-u" />
+    
+    <project
+        path="vendor/oneplus/sdm845-common"
+        name="TheMuppets/proprietary_vendor_oneplus_sdm845-common"
         remote="github"
         revision="lineage-21" />
     
     <project
-        path="vendor/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/vendor_oneplus_sdm845-common"
-        remote="github"
-        revision="fourteen" />
-    
-    <project
         path="vendor/oneplus/enchilada"
-        name="ppanzenboeck/vendor_oneplus_enchilada"
+        name="TheMuppets/proprietary_vendor_oneplus_enchilada"
         remote="github"
         revision="lineage-21" />
     
     <project
         path="kernel/oneplus/sdm845"
-        name="PixelOS-OnePlus6-Series/kernel_oneplus_sdm845"
+        name="LineageOS/android_kernel_oneplus_sdm845"
         remote="github"
-        revision="fourteen" />
+        revision="lineage-21" />
     
     <project
         path="vendor/aosp/signing/keys"
@@ -40,7 +40,7 @@
     
     <project
         path="hardware/oneplus"
-        name="LineageOS/android_hardware_oneplus"
+        name="srgrusso/hardware_oneplus"
         remote="github"
-        revision="lineage-21" />
+        revision="bliss-u" />
 </manifest>
