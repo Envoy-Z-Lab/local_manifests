@@ -24,7 +24,7 @@
         path="vendor/oneplus/enchilada"
         name="OnePlus6-Series-DroidX-UI/vendor_oneplus_enchilada"
         remote="github"
-        revision="lineage-21" />
+        revision="14" />
     
     <project
         path="kernel/oneplus/sdm845"
