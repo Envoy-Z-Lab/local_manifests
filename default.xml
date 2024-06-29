@@ -4,37 +4,37 @@
     
     <project
         path="device/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/device_oneplus_sdm845-common"
+        name="OnePlus6-Series-DroidX-UI/device_oneplus_sdm845-common"
         remote="github"
         revision="fourteen" />
     
     <project
         path="device/oneplus/enchilada"
-        name="Envoy-Z-Lab/enchilada"
+        name="OnePlus6-Series-DroidX-UI/device_oneplus_enchilada"
         remote="github"
-        revision="lineage-21" />
+        revision="fourteen" />
     
     <project
         path="vendor/oneplus/sdm845-common"
-        name="PixelOS-OnePlus6-Series/vendor_oneplus_sdm845-common"
+        name="OnePlus6-Series-DroidX-UI/vendor_oneplus_sdm845-common"
         remote="github"
         revision="fourteen" />
     
     <project
         path="vendor/oneplus/enchilada"
-        name="ppanzenboeck/vendor_oneplus_enchilada"
+        name="OnePlus6-Series-DroidX-UI/vendor_oneplus_enchilada"
         remote="github"
         revision="lineage-21" />
     
     <project
         path="kernel/oneplus/sdm845"
-        name="PixelOS-OnePlus6-Series/kernel_oneplus_sdm845"
+        name="OnePlus6-Series-DroidX-UI/kernel"
         remote="github"
         revision="fourteen" />
     
     <project
         path="vendor/aosp/signing/keys"
-        name="Envoy-Z-Lab/singing_keys"
+        name="Envoy-Z-Lab/Signing-Keys"
         remote="github"
         revision="aosp" />
     
